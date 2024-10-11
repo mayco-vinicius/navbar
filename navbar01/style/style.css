@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* BBC */
+
+nav {
+    position: relative;
+}
+
+.navbar01-container {
+    background-color: #000;
+    width: 100%;
+    height: 41px;
+}
+
+.logo-bbc {
+    position: absolute;
+    height: 80px;
+    margin-top: -20px;
+}
+
+.navbar-icons-bbc {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: -10px;
+}
+
+.navbar-icons-bbc li {
+    height: 50px;
+    max-height: 50px;
+    margin-left: 4rem;
+    display: inline-block;
+}
+
+.navbar-icons-bbc a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-search-bbc {
+    position: absolute;
+    right: 0;
+    margin-top: -12px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.lupa {
+    position: absolute;
+    right: 0;
+    margin-top: -10px;
+    margin-right: 25px;
+    color: #000;
+}
+
+.navbar-login-bbc {
+    position: absolute;
+    margin: 10px 0 0 125px;
+}
+
+.navbar-login-bbc a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 6px;
+}
+
+.navbar-login-bbc i {
+    position: absolute;
+    margin: -5px -30px 0 ;
+    color: #fff;
+    font-size: 30px;
+}
+
+/* CNN */
+
+.navbar02-container {
+    margin-top: 30px;
+    background-color: #000;
+    width: 100%;
+    height: 41px;
+}
+
+.logo-cnn {
+    position: absolute;
+    height: 35px;
+    width: 40px;
+    margin: 2px 20px;
+}
+
+.navbar-icons-cnn {
+    position: absolute;
+    margin-left: 5rem;
+}
+
+.navbar-icons-cnn li {
+    display: inline-block;
+    font-size: 15px;
+}
